@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -Wshadow -Werror -pedantic-errors -Wlogical-op -g -O3 -fno-math-errno -fno-trapping-math -freciprocal-math -fno-signed-zeros -fno-associative-math -fno-finite-math-only -flto=auto -fno-fat-lto-objects CMakeFiles/integration_tests.dir/main.cpp.o -o ../../build/integration_tests  ../../libgapp.a 

@@ -9,7 +9,7 @@ include(CMakePackageConfigHelpers)
 
 option(GAPP_BUILD_TESTS "Build the tests for the library when ON." ON)
 option(GAPP_BUILD_BENCHMARKS "Build the benchmarks for the library when ON." OFF)
-option(GAPP_BUILD_EXAMPLES "Build the examples for the library when ON." OFF)
+option(GAPP_BUILD_EXAMPLES "Build the examples for the library when ON." ON)
 option(GAPP_USE_WERROR "Treat all warnings as errors during the build." ON)
 option(GAPP_USE_LTO "Use link time optimizations for the library." ON)
 option(GAPP_USE_MARCH_NATIVE "Optimize for the host architecture in release builds (only used for gcc and clang)." OFF)
